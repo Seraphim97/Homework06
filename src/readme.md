@@ -1,3 +1,9 @@
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 Calculator - check list
 | Step № |         Step Name                           |
 | 1. | Check the method that subtracts positive values |
