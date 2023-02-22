@@ -13,11 +13,6 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
-    @Test
     public void calcSub() {
         Calculator calculator = new Calculator();
         int result = calculator.subTwoValues(3,2);
