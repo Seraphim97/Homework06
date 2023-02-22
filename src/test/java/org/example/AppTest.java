@@ -15,7 +15,7 @@ public class AppTest
     @Test
     public void calcSub() {
         Calculator calculator = new Calculator();
-        int result = calculator.subTwoValues(3,2);
+        int result = calculator.subtractionTwoValues(3,2);
         assertEquals(1, result);
     }
     @Test
@@ -35,13 +35,15 @@ public class AppTest
     @Test
     public void testDefaultConstructor() {
         User user = new User();
-        assertNull( user.name );
+        assertEquals(0, user.id );
 
     }
     @Test
     public void updateUserName() {
-        String name = "Boris";
-        assertNotNull("Boris", name);
+        User user = new User("Boris", 1337,33);
+        user.name = "Erik";
+        assertEquals("Erik", user.name);
+
 
         }
     }
